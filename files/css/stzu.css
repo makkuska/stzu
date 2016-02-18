@@ -1,0 +1,250 @@
+body {
+  color: #4A5A5A; 
+  padding-bottom: 5px;
+  font-size: 14px;
+  background-color:#f5f5f5;
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 970px;
+  }
+}
+.container {
+  background-color: #ffffff;
+}  
+.sestnact {
+  font-size: 16px;
+}
+h2 {
+  font-size: 20pt;
+}
+ #box {
+  box-shadow:rgba(0, 0, 0, 0.2) 0 0 5px;
+  border-radius: 4px 4px 0px 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
+
+#navigator {
+  background-color: #000066;
+  border-radius: 4px 4px 0px 0px;
+  }
+
+#sidlo {
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.container-padding h1, .container-padding h2, .container-padding p, .container-padding form{
+ padding-left:20px;
+ padding-right:20px;
+ }
+
+.container-padding form{
+ padding-left:40px;
+ padding-right:20px;
+ }
+
+dt {
+  font-weight: bold;
+  font-variant: small-caps;
+  }
+
+#sidlo .dl-horizontal dt {
+  width: 80px;
+  }
+
+#sidlo .dl-horizontal dd {
+  margin-left: 100px;
+  }
+
+.dl-horizontal dd {
+  margin-left: 30%;
+  }
+.dl-horizontal dt {
+  width: 25%;
+  }
+
+.opacity .navbar {
+  opacity:1;
+  }
+.navbar-nav {
+}
+.smallmenu{
+    margin: 7.5px 10px;
+}
+
+.img_nav {
+}
+#vybaveni {
+ text-align: left;
+}
+#vybaveni img {
+  width: 100%;
+  } 
+ 
+#galerie img {
+  width: 100%;
+  } 
+
+#onas img {
+  width: 100%;
+  }
+
+#kontakty span {
+  font-size: 24px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+  }
+
+  #mapa {
+    height:230px; 
+    width:100%;
+  }
+
+  #map {
+    height:270px; 
+    width:100%;
+  }
+
+#url {display: none;}
+
+/* ---------------------------- navbar */
+  #navigator .navbar-collapse {
+    border-radius: 10px 10px 10px 10px;
+  }
+  .navbar-default {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #000066;
+    border-color: #000043
+  } 
+  
+  .navbar-default .navbar-nav > li > a {
+    color: inherit;
+  }
+  .navbar-default .navbar-brand:hover, 
+  .navbar-default .navbar-nav > li > a:hover {
+    color: #8AB5ED; 
+  }
+  .navbar-default .navbar-brand:hover, 
+  .navbar-default .navbar-nav > span {
+    color:#fff;
+  }
+  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #2D2DB3;
+    border-color: #357edb; 
+    color: #fff;
+}
+  .navbar-default .navbar-brand {
+    color: inherit;
+    padding-left: 8;
+    padding-right: 8;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .navbar-nav a, .navbar-nav > li > a {
+    padding-bottom: 16px;
+    padding-top: 17px;
+  }  
+
+  ul:first-child li{
+    list-style: none;
+  }
+
+/*
+  .navbar .navbar-nav > .active > a, 
+  .navbar .navbar-nav > .active > a:hover, 
+  .navbar .navbar-nav > .active > a:focus,
+  ul:first-child > li > .navbar-header > a,
+  ul:first-child > li > .navbar-header > a:hover,
+  ul:first-child > li > .navbar-header > a:focus {
+    background-color: #357edb;
+  }*/
+
+  /* ---------------------------- horní lišta -- vpravo */
+  .navbar-right:last_child > li > a {
+    padding-right:15px;
+  }
+
+  .navbar-right > li > a {
+    padding-right:5px;
+    padding-left:5px;
+  }
+
+  .navbar-text {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  /* ---------------------------- carousel */
+  .carousel {
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .carousel-inner > .item > img {
+    height: 100%;
+  }
+
+  .carousel .item {
+    background-color: #777777;
+  }
+   .carousel-caption {
+   text-shadow:rgba(0, 0, 0, 1) 2px 2px 1px;
+   }
+
+
+  /* ---------------------------- jumbotron */
+  .jumbotron {
+    padding-bottom: 8px;
+    padding-top: 90px;
+  }
+
+  .container .jumbotron {
+    border-radius: 0px 0px 0px 0px;
+    background-image:url('../img/menu.png');
+    background-color:#FFFFFF;
+    text-align: right;
+    height: 106px;
+    margin-top: -2px;
+    margin-bottom: 0px;
+  }
+
+  .btn-primary {
+    background-color: #000066;
+    border-color: #000066;
+    color: #FFFFFF;
+  }
+
+  .btn-primary.active, .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+    background-color: #357edb; 
+    border-color: #2d2db3;
+    color: #FFFFFF;
+  }
+  .carousel-indicators li {
+    border: 1.5px solid #FFFFFF;
+    border-radius: 12px;
+  }
+  .carousel-indicators .active {
+    background-color: #000066;
+  }
+
+  /* ---------------------------- footer */
+
+  footer a {
+    text-align: left;
+  }
+  footer {  
+    font-size: 14px;
+  }
+  footer img {
+    padding: 6px;
+  }

@@ -1,0 +1,22 @@
+<div id="mapa"></div>
+
+<script type="text/javascript">
+  var center = SMap.Coords.fromWGS84(18.1562908, 49.4550208);
+  var nastrojarna = SMap.Coords.fromWGS84(18.1404067, 49.4634631);
+  var m = new SMap(JAK.gel("mapa"), center, 11);
+  m.addDefaultLayer(SMap.DEF_BASE).enable();
+    m.addDefaultControls();
+
+  var layer = new SMap.Layer.Marker();
+  m.addLayer(layer);
+  layer.enable();
+  
+  var options = {};
+
+  var nastrojarna_card = new SMap.Card();
+  nastrojarna_card.getHeader().innerHTML = "Bezručova 2902, Rožnov pod Radhoštěm";
+  var nastrojarna_marker = new SMap.Marker(nastrojarna, "Nástrojárna Pečky s.r.o.", options);
+  nastrojarna_marker.decorate(SMap.Marker.Feature.Card, nastrojarna_card);
+  layer.addMarker(nastrojarna_marker);
+  
+</script>
