@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+  <?php $name_page = "index" ?>
   <?php $rootpath = "" ?>
   <?php $czpath = "cz/" ?>
   <?php $enpath = "en/" ?>

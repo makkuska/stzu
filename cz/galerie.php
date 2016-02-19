@@ -22,15 +22,17 @@
     <div id="box" class="container">
       <?php include_once("header.html") ?>
 
-      <div class="jumbotron">
-      </div> <!-- class="jumbotron" -->
+        <div id="first" class="galerie">
 
-      <div id="galerie" class="container container-padding">
-        <h1 class="page-header">Galerie výrobků</h1>
-        <?php include_once("fotogalerie.html") ?>
-        <p>
-      </div><!-- div sluzby -->
-      <?php include_once("footer.html") ?>
-    </div> <!-- id="box" class="container" -->
+
+          <div id="galerie" class="container container-padding">
+            <h1 class="page-header">Galerie výrobků</h1>
+            <?php include_once("fotogalerie.html") ?>
+            <p>
+          </div><!-- div sluzby -->
+          <?php include_once("footer.html") ?>
+        </div> <!-- id="box" class="container" -->
+      </div>
+    </div>
   </body> 
 </html>

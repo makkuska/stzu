@@ -1,71 +1,45 @@
- <p>
-          <div id="blueimp-gallery" class="blueimp-gallery">
-            <!-- The container for the modal slides -->
-            <div class="slides"></div>
-            <!-- Controls for the borderless lightbox -->
-            <h3 class="title"></h3>
-            <a class="prev">‹</a>
-            <a class="next">›</a>
-            <a class="close">×</a>
-            <a class="play-pause"></a>
-            <ol class="indicator"></ol>
-            <!-- The modal dialog, which will be used to wrap the lightbox content -->
-            <div class="modal fade">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title"></h4>
-                  </div>
-                  <div class="modal-body next"></div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-default pull-left prev">
-                      <i class="glyphicon glyphicon-chevron-left"></i>
-                      Previous
-                    </button>
-                    <button type="button" class="btn btn-primary next">
-                      Next
-                      <i class="glyphicon glyphicon-chevron-right"></i>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="links container">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-                <img src=<?php echo "{$filespath}files/img/kamion_02.jpg" ?> alt="Nákladní vozidla firmy Solanský s.r.o." /><br />
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <a href=<?php echo "{$filespath}files/img/kamion_04_zoom.jpg" ?> title="Nákladní vozidla firmy Solanský s.r.o." data-gallery >
-                <img src=<?php echo "{$filespath}files/img/kamion_04.jpg" ?> alt="Nákladní vozidla firmy Solanský s.r.o." /><br />
-              </a>
-            </div>
-          </div>
-          <br />
-          <div class="links container">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <a href=<?php echo "{$filespath}files/img/kamion_06_zoom.jpg" ?> title="Nákladní vozidla firmy Solanský s.r.o." data-gallery >
-                <img src=<?php echo "{$filespath}files/img/kamion_06.jpg" ?> alt="Nákladní vozidla firmy Solanský s.r.o." /><br />
-              </a>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <a href=<?php echo "{$filespath}files/img/kamion_03_zoom.jpg" ?> title="Nákladní vozidla firmy Solanský s.r.o." data-gallery >
-                <img src=<?php echo "{$filespath}files/img/kamion_03.jpg" ?> alt="Nákladní vozidla firmy Solanský s.r.o." /><br />
-              </a>
-            </div>
-          </div>
-          <br />
-          <div class="links container">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <a href=<?php echo "{$filespath}files/img/kamion_07_zoom.jpg" ?> title="Nákladní vozidla firmy Solanský s.r.o." data-gallery >
-                <img src=<?php echo "{$filespath}files/img/kamion_07.jpg" ?> alt="Nákladní vozidla firmy Solanský s.r.o." /><br />
-              </a>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <a href=<?php echo "{$filespath}files/img/kamion_08_zoom.jpg" ?> title="Nákladní vozidla firmy Solanský s.r.o." data-gallery >
-                <img src=<?php echo "{$filespath}files/img/kamion_08.jpg" ?> alt="Nákladní vozidla firmy Solanský s.r.o." /><br />
-              </a>
-            </div>
-          </div>
+        <p>
+        <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+          <script type="text/javascript" >
+            $(document).ready(function(){
+            $('.foto').bxSlider({
+              buildPager: function(slideIndex){
+                switch(slideIndex){
+                  case 0:
+                    return '<img src=<?php echo "{$filespath}files/img/galery/z06m.jpg" ?> />';
+                  case 1:
+                    return '<img src=<?php echo "{$filespath}files/img/galery/z07m.jpg" ?> />';
+                  case 2:
+                    return '<img src=<?php echo "{$filespath}files/img/galery/z13m.jpg" ?> />';
+                  case 3:
+                    return '<img src=<?php echo "{$filespath}files/img/galery/z08m.jpg" ?> />';
+                  case 4:
+                    return '<img src=<?php echo "{$filespath}files/img/galery/z12m.jpg" ?> />';
+                  case 5:
+                    return '<img src=<?php echo "{$filespath}files/img/galery/z09m.jpg" ?> />';
+                  case 6:
+                    return '<img src=<?php echo "{$filespath}files/img/galery/z10m.jpg" ?> />';
+                  case 7:
+                    return '<img src=<?php echo "{$filespath}files/img/galery/z11m.jpg" ?> />';
+                }
+              },
+              controls: true,
+              autoControls: true,
+              captions: true,
+            });
+            });
+          </script>
+          <ul class="foto">
+            <li><img title="Formy pro lisování technické pryže" src=<?php echo "{$filespath}files/img/galery/z06.jpg" ?>  alt="výrobek" /></li>
+            <li><img title="Výlisky z forem na pryž" src=<?php echo "{$filespath}files/img/galery/z07.jpg" ?>  alt="výrobek" /></li>
+            <li><img title="Výlisky z forem na pryž" src=<?php echo "{$filespath}files/img/galery/z13.jpg" ?> alt="výrobek" /></li>
+            <li><img title="Montážní přípravky" src=<?php echo "{$filespath}files/img/galery/z08.jpg" ?> alt="výrobek" /></li>
+            <li><img title="Montážní přípravky" src=<?php echo "{$filespath}files/img/galery/z12.jpg" ?> alt="výrobek" /></li>
+            <li><img title="Svařovací přípravky" src=<?php echo "{$filespath}files/img/galery/z09_.jpg" ?> alt="výrobek" /></li>
+            <li><img title="Tříosé frézování dle CAD dat" src=<?php echo "{$filespath}files/img/galery/z10.jpg" ?> alt="výrobek" /></li>
+            <li><img title="Výroba ozubených kol" src=<?php echo "{$filespath}files/img/galery/z11.jpg" ?> alt="výrobek" /></li>
+
+
+          </ul>      
         </p>
+      </div>
