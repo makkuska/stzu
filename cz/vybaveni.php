@@ -94,8 +94,13 @@
                   </div>
               </div>
             </div>
-
           </div><!-- div vybaveni -->
+          <br />
+          <h3><span class="skryty">B</span>Ostatní stroje</h3>
+            <div class="container container-padding">
+              
+              <p>soustruhy, CNC soustruh, frézky, vrtačky, obrážečky a další </p>
+            </div>
           <h3 class="page-header"><span class="skryty">B</span>Používaný software CAD/CAM</h3>
             <div class="container container-padding">
               <p>Solid Edge<br />
